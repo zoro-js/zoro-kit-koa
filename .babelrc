@@ -1,9 +1,11 @@
 {
   "presets": [
-    "stage-3",
-    "es2015"
+    "stage-3"
   ],
   "plugins": [
-    "add-module-exports"
+    "add-module-exports",
+    ["transform-es2015-modules-commonjs", {
+      "loose": true
+    }]
   ]
 }
