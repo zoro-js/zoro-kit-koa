@@ -3,6 +3,8 @@
     "stage-3"
   ],
   "plugins": [
+    "transform-es2015-destructuring",
+    "transform-object-rest-spread",
     "add-module-exports",
     ["transform-es2015-modules-commonjs", {
       "loose": true
